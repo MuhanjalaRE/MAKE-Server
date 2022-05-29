@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\SDK">
+      <UniqueIdentifier>{b07c5361-c6ff-4833-9012-e581fd378420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Detours">
+      <UniqueIdentifier>{e57069fa-7a31-474a-bfb5-7463551f5151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Other">
+      <UniqueIdentifier>{dca6b671-6bb8-4c74-b735-abec13130471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Other\JSON">
+      <UniqueIdentifier>{cc94b15f-e868-4b91-8385-d5ee929163cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UE">
+      <UniqueIdentifier>{6fee61af-0f13-41e4-80c9-1b065f5e0e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Hook">
+      <UniqueIdentifier>{5ab5fbb8-a32b-4558-900c-32b17793df6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\JSON\json.hpp">
+      <Filter>Resource Files\Other\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Detours\detours.h">
+      <Filter>Resource Files\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="UE\ue.h">
+      <Filter>Resource Files\UE</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\sigscanner.h">
+      <Filter>Resource Files\Other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UE\source.cpp">
+      <Filter>Resource Files\UE</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\BasicHelper.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Engine_functions.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CoreUObject_functions.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\MidairCE_functions.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="UE\ue.cpp">
+      <Filter>Resource Files\UE</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\UMG_functions.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\OnlineSubsystemUtils_functions.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GameplayTasks_functions.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\WBP_LoadingScreen_functions.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\WBP_ProgressionEventOverlay_functions.cpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".clang-format" />
+  </ItemGroup>
+</Project>
